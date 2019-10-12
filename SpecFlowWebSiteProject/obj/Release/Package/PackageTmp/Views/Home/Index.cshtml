@@ -1,0 +1,67 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+
+@section scripts{
+    <script src="~/Scripts/My_Scripts/home-page.js"></script>
+}
+
+<div class="row">
+    <div class="col-md-12">
+        <h1>Home Page</h1>
+    </div>
+</div>
+
+<div class=" row">
+    <div class="col-md-12">
+        <hr />
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-md-12">
+
+        <form>
+            <div class="form-group">
+                <label for="exampleInputEmail1">Email</label>
+                <input type="email" class="form-control" id="inputEmail" aria-describedby="emailHelp" placeholder="Enter email">
+                <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+            </div>
+            <div class="form-group">
+                <label for="exampleInputPassword1">Password</label>
+                <input type="password" class="form-control" id="inputPassword" placeholder="Password">
+            </div>
+        </form>
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-md-6">
+
+        <form>
+            <h3>Games</h3>
+            <div class="form-check">
+                <input type="checkbox" class="form-check-input" id="checkModernWarfare3">
+                <label class="form-check-label" for="check">Modern Warfare 3</label>
+            </div>
+            <div class="form-check">
+                <input type="checkbox" class="form-check-input" id="checkBlackOps">
+                <label class="form-check-label" for="check">Black Ops</label>
+            </div>
+            <div class="form-check">
+                <input type="checkbox" class="form-check-input" id="checkMarioPaint">
+                <label class="form-check-label" for="check">Mario Paint</label>
+            </div>
+            <br />
+            <input type="button" id="btnSubmitGames" class="btn btn-primary" value="Submit Games" />
+            &nbsp;&nbsp;
+            <input type="button" id="btnResetMessageBoard" class="btn btn-primary" value="Reset" />
+        </form>
+    </div>
+    <div class="col-md-6 messageBoardBorder">
+        <h3>Message Board</h3>
+        <div id="messageBoard">
+            
+        </div>
+    </div>
+</div>

@@ -1,0 +1,62 @@
+﻿
+@{
+    ViewBag.Title = "Budget";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+@section scripts{
+    <script src="~/Scripts/My_Scripts/budget-page.js"></script>
+}
+
+<div class="row">
+    <div class="col-md-12">
+        <h1>Budget</h1>
+        <hr />
+    </div>
+</div>
+
+<div class="row">
+    <br />
+    <div class="col-md-5">
+        <div class="form-group">
+            <label for="salary">Salary by Year:</label>
+            <input type="text" class="form-control" id="salary" />
+        </div>
+        <div class="form-group">
+            <label for="traditional401k">Traditional 401k Investment:</label>
+            <input type="text" class="form-control" id="traditional401k" />
+        </div>
+        <div class="form-group">
+            <label for="taxRate">Tax Rate:</label>
+            <input type="text" class="form-control" id="taxRate" />
+        </div>
+        <br />
+        <input type="button" id="calculateBudget" class="btn btn-primary" value="Calculate" />
+        <br />
+        <br />
+        <div class="validations" id="validationMessages"></div>
+    </div>
+    <div class="col-md-7 messageBoardBorder">
+        <p>Salary by Year:&nbsp;&nbsp;<span id="salaryByYear"></span></p>
+        <p>Salary by Month:&nbsp;&nbsp;<span id="salaryByMonth"></span></p>
+        <p>Salary by Bi-Week:&nbsp;&nbsp;<span id="salaryByBiWeek"></span></p>
+        <p>Salary by Week:&nbsp;&nbsp;<span id="salaryByWeek"></span></p>
+
+        <br />
+        <p>401k by Year:&nbsp;&nbsp;<span id="investByYear"></span></p>
+        <p>401k by Month:&nbsp;&nbsp;<span id="investByMonth"></span></p>
+        <p>401k by Bi-Week:&nbsp;&nbsp;<span id="investByBiWeek"></span></p>
+        <p>401k by Week:&nbsp;&nbsp;<span id="investByWeek"></span></p>
+
+        <br />
+        <p>Taxes by Year:&nbsp;&nbsp;<span id="taxesByYear"></span></p>
+        <p>Taxes by Month:&nbsp;&nbsp;<span id="taxesByMonth"></span></p>
+        <p>Taxes by Bi-Week:&nbsp;&nbsp;<span id="taxesByBiWeek"></span></p>
+        <p>Taxes by Week:&nbsp;&nbsp;<span id="taxesByWeek"></span></p>
+
+        <br />
+        <p>Cash by Year:&nbsp;&nbsp;<span id="cashByYear"></span></p>
+        <p>Cash by Month:&nbsp;&nbsp;<span id="cashByMonth"></span></p>
+        <p>Cash by Bi-Week:&nbsp;&nbsp;<span id="cashByBiWeek"></span></p>
+        <p>Cash by Week:&nbsp;&nbsp;<span id="cashByWeek"></span></p>
+    </div>
+</div>
