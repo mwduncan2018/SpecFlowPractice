@@ -8,7 +8,7 @@ Scenario: Modern Warfare 3 submitted to the message board
 	Given the web application is at the Home page
 	And the Modern Warfare Three checkbox is checked
 	When the Submit Games button is clicked
-	Then the message board displays 'Modern Warfare 3'
+	Then the message board displays Modern Warfare 3
 
 @ExecutingStepsWithinSteps
 Scenario: All games are submitted to the message board
@@ -16,5 +16,5 @@ Scenario: All games are submitted to the message board
 	And all games are checked
 	When the Submit Games button is clicked
 	Then all games appear in the messageboard
-	And the message board displays 'All games are checked'
+	And the message board displays All games are checked
 		

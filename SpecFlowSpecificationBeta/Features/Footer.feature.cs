@@ -80,7 +80,7 @@ this.ScenarioInitialize(scenarioInfo);
 #line 8
  testRunner.Given("I have navigated to the SpecFlowWebSiteProject website", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line 9
- testRunner.Then("the footer should contain the name \'Michael Duncan\'", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+ testRunner.Then("the footer should contain the name Michael Duncan", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line hidden
             this.ScenarioCleanup();
         }
@@ -110,7 +110,7 @@ this.ScenarioInitialize(scenarioInfo);
 #line 16
  testRunner.Given("the web application is at the Home page", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line 17
- testRunner.Then("the footer should not contain the name \'George Carlin\'", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+ testRunner.Then("the footer should not contain the name George Carlin", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line hidden
             this.ScenarioCleanup();
         }

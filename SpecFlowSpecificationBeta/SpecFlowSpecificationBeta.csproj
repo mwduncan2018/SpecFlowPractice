@@ -82,6 +82,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="CustomTransformations\CustomTransforms.cs" />
     <Compile Include="Hooks\FeatureHooks.cs" />
     <Compile Include="Hooks\ScenarioBlockHooks.cs" />
     <Compile Include="Hooks\ScenarioHooks.cs" />
@@ -112,10 +113,6 @@
     <ProjectReference Include="..\SFWSPAutomationFramework\SFWSPAutomationFramework.csproj">
       <Project>{cb32b021-af98-4d9d-8dc3-ac2eebf4f184}</Project>
       <Name>SFWSPAutomationFramework</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\SpecFlowSpecificationCharlie\SpecFlowSpecificationCharlie.csproj">
-      <Project>{9fafc938-8998-4e9c-9c8d-0511411cfa30}</Project>
-      <Name>SpecFlowSpecificationCharlie</Name>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup />

@@ -16,7 +16,7 @@ namespace SpecFlowSpecificationBeta.StepDefinitions
             HomePage.GoTo();
         }
         
-        [Then(@"the footer should contain the name '(.*)'")]
+        [Then(@"the footer should contain the name (.*)")]
         public void ThenTheFooterShouldContainTheName(string name)
         {
             Assert.IsTrue(HomePage.VerifyFooterContainsTheText(name));
@@ -28,7 +28,7 @@ namespace SpecFlowSpecificationBeta.StepDefinitions
             Assert.IsTrue(HomePage.VerifyFooterContainsTheCurrentYear());
         }
 
-        [Then(@"the footer should not contain the name '(.*)'")]
+        [Then(@"the footer should not contain the name (.*)")]
         public void ThenTheFooterShouldNotContainTheName(string name)
         {
             Assert.IsFalse(HomePage.VerifyFooterContainsTheText(name));

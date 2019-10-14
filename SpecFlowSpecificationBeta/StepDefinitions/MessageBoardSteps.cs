@@ -42,7 +42,7 @@ namespace SpecFlowSpecificationBeta.StepDefinitions
             HomePage.ClickSubmitGamesButton();
         }
 
-        [Then("the message board displays '(.*)'")]
+        [Then("the message board displays (.*)")]
         public void ThenTheMessageBoardDisplays(string message)
         {
             HomePage.ClickResetButton();

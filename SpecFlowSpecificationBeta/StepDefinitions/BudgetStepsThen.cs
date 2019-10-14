@@ -19,7 +19,7 @@ namespace SpecFlowSpecificationBeta.StepDefinitions
             _budgetData = budgetData;
         }
 
-        [Then(@"the validation message '(.*)' is displayed")]
+        [Then(@"the validation message (.*) is displayed")]
         [Scope(Tag = "BudgetValidations")]
         // This method will only run for the tag "BudgetValidations".
         // If there were multiple methods with this same name that
@@ -29,7 +29,38 @@ namespace SpecFlowSpecificationBeta.StepDefinitions
         // for the tag "BudgetValidations".
         public void ThenTheValidationMessageIsDisplayed(string message)
         {
-            BudgetPage.VerifyValidationMessage(message);
+            Assert.IsTrue(BudgetPage.VerifyValidationMessageIsDisplayed(message));
         }
+
+        [Then(@"no validation messages should be displayed")]
+        public void ThenNoValidationMessagesShouldBeDisplayed()
+        {
+            Assert.IsTrue(BudgetPage.VerifyNoValidationMessagesAreDisplayed());
+        }
+
+        [Then(@"salary by year should be (.*)")]
+        public void ThenSalaryByYearShouldBe(string salaryByYear)
+        {
+            Assert.IsTrue(BudgetPage.VerifySalaryByYearIs(salaryByYear));
+        }
+
+        [Then(@"401k by year should be (.*)")]
+        public void ThenKByYearShouldBe(string traditional401kByYear)
+        {
+            Assert.IsTrue(BudgetPage.Verify401kByYearIs(traditional401kByYear));
+        }
+
+        [Then(@"taxes by year should be (.*)")]
+        public void ThenTaxesByYearShouldBe(string taxesByYear)
+        {
+            Assert.IsTrue(BudgetPage.VerifyTaxesByYearIs(taxesByYear));
+        }
+
+        [Then(@"cash by year should be (.*)")]
+        public void ThenCashByYearShouldBe(string cashByYear)
+        {
+            Assert.IsTrue(BudgetPage.VerifyCashByYearIs(cashByYear));
+        }
+
     }
 }

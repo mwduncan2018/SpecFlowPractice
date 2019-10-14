@@ -19,7 +19,7 @@ namespace SpecFlowSpecificationBeta.StepDefinitions
             _budgetData = budgetData;
         }
 
-        [Given(@"I have navigated to the Budget page")]
+        [Given(@"I have navigated to the budget page")]
         public void GivenIHaveNavigatedToTheBudgetPage()
         {
             BudgetPage.GoTo();
@@ -31,16 +31,47 @@ namespace SpecFlowSpecificationBeta.StepDefinitions
             BudgetPage.Salary = @"";
         }
 
-        [Given(@"the traditional 401k value is not populated")]
-        public void GivenTheTraditionalKValueIsNotPopulated()
+        [Given(@"the traditional 401k is not populated")]
+        public void GivenTheTraditional401kIsNotPopulated()
         {
             BudgetPage.Traditional401k = @"";
+        }
+
+        [Given(@"the tax rate is not populated")]
+        public void GivenTheTaxRateIsNotPopulated()
+        {
+            BudgetPage.TaxRate = @"";
+        }
+
+        [Given(@"the salary is set to (.*)")]
+        public void GivenTheSalaryIsSetTo(string salary)
+        {
+            BudgetPage.Salary = salary;
+        }
+
+
+        [Given(@"the tax rate is set to (.*)")]
+        public void GivenTheTaxRateIsSetTo(string taxRate)
+        {
+            BudgetPage.TaxRate = taxRate;
+        }
+
+        [Given(@"the traditional 401k is set to (.*)")]
+        public void GivenTheTraditionalKIsSetTo(string traditional401k)
+        {
+            BudgetPage.Traditional401k = traditional401k;
         }
 
         [When(@"the budget is calculated")]
         public void WhenTheBudgetIsCalculated()
         {
             BudgetPage.CalculateBudget();
+        }
+
+        [Given(@"I have entered (.* Euros)")]
+        public void GivenIHaveEnteredEuros(string dollars)
+        {
+            BudgetPage.Salary = dollars.ToString();
         }
 
     }

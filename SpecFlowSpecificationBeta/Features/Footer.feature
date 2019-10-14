@@ -6,7 +6,7 @@
 @SmokeTest
 Scenario: My name should be in the footer
 	Given I have navigated to the SpecFlowWebSiteProject website
-	Then the footer should contain the name 'Michael Duncan'
+	Then the footer should contain the name Michael Duncan
 
 Scenario: The current date should be in the footer
 	Given the web application is at the Home page
@@ -14,4 +14,4 @@ Scenario: The current date should be in the footer
 
 Scenario: George Carlin should not be in the footer
 	Given the web application is at the Home page
-	Then the footer should not contain the name 'George Carlin'
+	Then the footer should not contain the name George Carlin
