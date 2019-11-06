@@ -13,11 +13,8 @@ namespace SpecFlowSpecificationBeta.CustomTransformations
         [StepArgumentTransformation(@"(.* Euros)")]
         public string EurosToDollarTransform(string strEuros)
         {
-            decimal euros;
-            Decimal.TryParse(strEuros, out euros);
-            decimal dollars = 1.1M * euros;
-            string strDollars = dollars.ToString();
-            return strDollars;
+            Decimal.TryParse(strEuros, out decimal euros);
+            return (1.1M * euros).ToString();
         }
     }
 }
