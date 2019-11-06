@@ -1,0 +1,139 @@
+﻿2019-10-14T13:12:44.5465384-04:00;VSTestExecutionThread;Info;SpecFlow+Runner execution started
+2019-10-14T13:12:44.5465384-04:00;VSTestExecutionThread;Info;SpecFlow+Runner 3.0.391 in Framework clr40 in x86 mode execution started
+2019-10-14T13:12:44.5465384-04:00;VSTestExecutionThread;Info;TestAdapter Location: C:\dev\CSharp\VisualStudioProjects\SpecFlowPractice\SpecFlowSpecificationBeta\bin\Debug\TechTalk.SpecRun.VisualStudio.TestAdapter.dll
+2019-10-14T13:12:44.6335526-04:00;VSTestExecutionThread;Info;SpecRun: running tests in C:\dev\CSharp\VisualStudioProjects\SpecFlowPractice\SpecFlowSpecificationBeta\bin\Debug\SpecFlowSpecificationBeta.dll
+2019-10-14T13:12:44.6335526-04:00;VSTestExecutionThread;Info;Output folder configured to "C:\dev\CSharp\VisualStudioProjects\SpecFlowPractice\TestResults" (default)
+2019-10-14T13:12:44.6335526-04:00;VSTestExecutionThread;Info;Profile: SpecFlowSpecificationBeta
+2019-10-14T13:12:44.6485509-04:00;VSTestExecutionThread;Info;Log file path: C:\dev\CSharp\VisualStudioProjects\SpecFlowPractice\TestResults\SpecFlowSpecificationBeta_SpecFlowSpecificationBeta_2019-10-14T131244.log
+2019-10-14T13:12:44.6684982-04:00;Thread#15;Info;Checking license
+2019-10-14T13:12:44.6715317-04:00;Thread#15;Info;License check completed
+2019-10-14T13:12:44.6715317-04:00;Thread#15;Info;starting test run
+2019-10-14T13:12:44.6775304-04:00;Thread#15;Info;Discovering target: Default
+2019-10-14T13:12:44.6775304-04:00;Thread#15;Info;Discovering tests from assembly: C:\dev\CSharp\VisualStudioProjects\SpecFlowPractice\SpecFlowSpecificationBeta\bin\Debug\SpecFlowSpecificationBeta.dll
+2019-10-14T13:12:44.7285332-04:00:Appdomain Disposed
+2019-10-14T13:12:44.7285332-04:00;Thread#15;Info;Discovered tests from assembly: C:\dev\CSharp\VisualStudioProjects\SpecFlowPractice\SpecFlowSpecificationBeta\bin\Debug\SpecFlowSpecificationBeta.dll
+2019-10-14T13:12:44.7294971-04:00:Test Suite Dump
+2019-10-14T13:12:44.7305317-04:00:#0: SpecFlowSpecificationBeta/SpecFlowSpecificationBeta - 
+2019-10-14T13:12:44.7305317-04:00:#1: Default - 
+2019-10-14T13:12:44.7305317-04:00:#2: SpecFlowSpecificationBeta - 
+2019-10-14T13:12:44.7305317-04:00:#3: Budget - 
+2019-10-14T13:12:44.7305317-04:00:#9: Footer - 
+2019-10-14T13:12:44.7305317-04:00:#13: MessageBoard - 
+2019-10-14T13:12:44.7394970-04:00:#4: Salary is required - TestAssembly:SpecFlowSpecificationBeta/Feature:Budget/Scenario:Salary+is+required
+2019-10-14T13:12:44.7394970-04:00:#5: Traditional 401k is required - TestAssembly:SpecFlowSpecificationBeta/Feature:Budget/Scenario:Traditional+401k+is+required
+2019-10-14T13:12:44.7394970-04:00:#6: Tax rate is required - TestAssembly:SpecFlowSpecificationBeta/Feature:Budget/Scenario:Tax+rate+is+required
+2019-10-14T13:12:44.7394970-04:00:#7: Basic smoke for Budget page - TestAssembly:SpecFlowSpecificationBeta/Feature:Budget/Scenario:Basic+smoke+for+Budget+page
+2019-10-14T13:12:44.7394970-04:00:#8: Custom conversion for from Euro to Dollar - TestAssembly:SpecFlowSpecificationBeta/Feature:Budget/Scenario:Custom+conversion+for+from+Euro+to+Dollar
+2019-10-14T13:12:44.7394970-04:00:#10: My name should be in the footer - TestAssembly:SpecFlowSpecificationBeta/Feature:Footer/Scenario:My+name+should+be+in+the+footer
+2019-10-14T13:12:44.7394970-04:00:#11: The current date should be in the footer - TestAssembly:SpecFlowSpecificationBeta/Feature:Footer/Scenario:The+current+date+should+be+in+the+footer
+2019-10-14T13:12:44.7394970-04:00:#12: George Carlin should not be in the footer - TestAssembly:SpecFlowSpecificationBeta/Feature:Footer/Scenario:George+Carlin+should+not+be+in+the+footer
+2019-10-14T13:12:44.7394970-04:00:#14: Modern Warfare 3 submitted to the message board - TestAssembly:SpecFlowSpecificationBeta/Feature:MessageBoard/Scenario:Modern+Warfare+3+submitted+to+the+message+board
+2019-10-14T13:12:44.7394970-04:00:#15: All games are submitted to the message board - TestAssembly:SpecFlowSpecificationBeta/Feature:MessageBoard/Scenario:All+games+are+submitted+to+the+message+board
+2019-10-14T13:12:44.7394970-04:00:End: Test Suite Dump
+2019-10-14T13:12:44.7554971-04:00:Thread#0:Scheduler: get next test for thread 0
+2019-10-14T13:12:44.7564974-04:00:Thread#:Scheduler: testitem #4 from normal test queue 
+2019-10-14T13:12:44.7564974-04:00:Thread#0:Scheduler: considering testitem #4 for thread 0
+2019-10-14T13:12:44.7594976-04:00:Thread#0:TestItem#4:testItemMatchesCurrentTestThread:UnSpecific
+2019-10-14T13:12:44.7594976-04:00:Thread#0:TestItem#4:runsOnOneOtherThreadSpecific:False
+2019-10-14T13:12:44.7594976-04:00:Thread#0:TestItem#4:runsOnOneOtherThreadUnspecific:False
+2019-10-14T13:12:44.7594976-04:00:Thread#0:Scheduler: using testitem #4 for thread 0
+2019-10-14T13:12:44.7604974-04:00:Thread#0:Scheduler: Test #4 is scheduled for thread
+2019-10-14T13:12:44.7604974-04:00:Thread#0:Scheduler: with testItemExecutionIndex 0
+2019-10-14T13:12:44.7624974-04:00:Thread #0: creating new test thread executor for SpecFlowSpecificationBeta, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null (target: Default)
+2019-10-14T13:12:44.7644975-04:00:Thread #0: Creating test assembly executor for execution model AppDomain
+2019-10-14T13:12:44.7644975-04:00:Thread #0: Creating test assembly executor for execution model AppDomain
+2019-10-14T13:12:44.7654974-04:00:Thread #0: using TechTalk.SpecRun.Framework.Execution.InProcess.InProcAppDomainTestAssemblyExecutorHost to execute tests
+2019-10-14T13:12:44.8074974-04:00:Thread#0: Test #4/0 is started on thread #0
+2019-10-14T13:12:44.9785315-04:00:Thread#0:T:-> Loading plugin C:\dev\CSharp\VisualStudioProjects\SpecFlowPractice\SpecFlowSpecificationBeta\bin\Debug\SpecRun.Runtime.SpecFlowPlugin.dll
+2019-10-14T13:12:45.0064972-04:00:Thread#0:T:-> Using default config
+2019-10-14T13:12:49.6013723-04:00:Thread#0:B:Given I have navigated to the budget page
+2019-10-14T13:12:49.8083407-04:00:Thread#0:T:done: BudgetSteps.GivenIHaveNavigatedToTheBudgetPage() (0.2s)
+2019-10-14T13:12:49.8093410-04:00:Thread#0:B:And the salary is not populated
+2019-10-14T13:12:49.8403440-04:00:Thread#0:T:done: BudgetSteps.GivenTheSalaryIsNotPopulated() (0.0s)
+2019-10-14T13:12:49.8413430-04:00:Thread#0:B:When the budget is calculated
+2019-10-14T13:12:50.0609572-04:00:Thread#0:T:done: BudgetSteps.WhenTheBudgetIsCalculated() (0.2s)
+2019-10-14T13:12:50.0619595-04:00:Thread#0:B:Then the validation message Salary is required. is displayed
+2019-10-14T13:12:50.0899925-04:00:Thread#0:T:done: BudgetStepsThen.ThenTheValidationMessageIsDisplayed("Salary is required.") (0.0s)
+2019-10-14T13:12:50.0969921-04:00:Thread#0:Scheduler: get next test for thread 0
+2019-10-14T13:12:50.0969921-04:00:Thread#:Scheduler: testitem #5 from normal test queue 
+2019-10-14T13:12:50.0969921-04:00:Thread#0:Scheduler: considering testitem #5 for thread 0
+2019-10-14T13:12:50.0969921-04:00:Thread#0:TestItem#5:testItemMatchesCurrentTestThread:UnSpecific
+2019-10-14T13:12:50.0969921-04:00:Thread#0:TestItem#5:runsOnOneOtherThreadSpecific:False
+2019-10-14T13:12:50.0969921-04:00:Thread#0:TestItem#5:runsOnOneOtherThreadUnspecific:False
+2019-10-14T13:12:50.0969921-04:00:Thread#0:Scheduler: using testitem #5 for thread 0
+2019-10-14T13:12:50.0969921-04:00:Thread#0:Scheduler: Test #5 is scheduled for thread
+2019-10-14T13:12:50.0969921-04:00:Thread#0:Scheduler: with testItemExecutionIndex 0
+2019-10-14T13:12:50.1059933-04:00:Thread#0: Test #4/0 is finished on thread #0 as Succeeded within 5.2984959 seconds
+2019-10-14T13:12:50.1069575-04:00:Thread#0: Test #5/0 is started on thread #0
+2019-10-14T13:12:50.1079604-04:00:Thread#0:B:Given I have navigated to the budget page
+2019-10-14T13:12:50.1759634-04:00:Thread#0:T:done: BudgetSteps.GivenIHaveNavigatedToTheBudgetPage() (0.1s)
+2019-10-14T13:12:50.1769650-04:00:Thread#0:B:And the traditional 401k is not populated
+2019-10-14T13:12:50.1969637-04:00:Thread#0:T:done: BudgetSteps.GivenTheTraditional401kIsNotPopulated() (0.0s)
+2019-10-14T13:12:50.1969637-04:00:Thread#0:B:When the budget is calculated
+2019-10-14T13:12:50.4144194-04:00:Thread#0:T:done: BudgetSteps.WhenTheBudgetIsCalculated() (0.2s)
+2019-10-14T13:12:50.4144194-04:00:Thread#0:B:Then the validation message 401k is required. is displayed
+2019-10-14T13:12:50.4304212-04:00:Thread#0:T:done: BudgetStepsThen.ThenTheValidationMessageIsDisplayed("401k is required.") (0.0s)
+2019-10-14T13:12:50.4304212-04:00:Thread#0:Scheduler: get next test for thread 0
+2019-10-14T13:12:50.4304212-04:00:Thread#:Scheduler: testitem #6 from normal test queue 
+2019-10-14T13:12:50.4304212-04:00:Thread#0:Scheduler: considering testitem #6 for thread 0
+2019-10-14T13:12:50.4304212-04:00:Thread#0:TestItem#6:testItemMatchesCurrentTestThread:UnSpecific
+2019-10-14T13:12:50.4304212-04:00:Thread#0:TestItem#6:runsOnOneOtherThreadSpecific:False
+2019-10-14T13:12:50.4304212-04:00:Thread#0:TestItem#6:runsOnOneOtherThreadUnspecific:False
+2019-10-14T13:12:50.4304212-04:00:Thread#0:Scheduler: using testitem #6 for thread 0
+2019-10-14T13:12:50.4304212-04:00:Thread#0:Scheduler: Test #6 is scheduled for thread
+2019-10-14T13:12:50.4304212-04:00:Thread#0:Scheduler: with testItemExecutionIndex 0
+2019-10-14T13:12:50.4304212-04:00:Thread#0: Test #5/0 is finished on thread #0 as Succeeded within 0.3234637 seconds
+2019-10-14T13:12:50.4304212-04:00:Thread#0: Test #6/0 is started on thread #0
+2019-10-14T13:12:50.4314199-04:00:Thread#0:B:Given I have navigated to the budget page
+2019-10-14T13:12:50.4954209-04:00:Thread#0:T:done: BudgetSteps.GivenIHaveNavigatedToTheBudgetPage() (0.1s)
+2019-10-14T13:12:50.4954209-04:00:Thread#0:B:And the tax rate is not populated
+2019-10-14T13:12:50.5114224-04:00:Thread#0:T:done: BudgetSteps.GivenTheTaxRateIsNotPopulated() (0.0s)
+2019-10-14T13:12:50.5114224-04:00:Thread#0:B:When the budget is calculated
+2019-10-14T13:12:50.7317590-04:00:Thread#0:T:done: BudgetSteps.WhenTheBudgetIsCalculated() (0.2s)
+2019-10-14T13:12:50.7326911-04:00:Thread#0:B:Then the validation message Tax Rate is required. is displayed
+2019-10-14T13:12:50.7726782-04:00:Thread#0:T:done: BudgetStepsThen.ThenTheValidationMessageIsDisplayed("Tax Rate is requi...") (0.0s)
+2019-10-14T13:12:50.7726782-04:00:Thread#0:Scheduler: get next test for thread 0
+2019-10-14T13:12:50.7726782-04:00:Thread#:Scheduler: testitem #7 from normal test queue 
+2019-10-14T13:12:50.7726782-04:00:Thread#0:Scheduler: considering testitem #7 for thread 0
+2019-10-14T13:12:50.7726782-04:00:Thread#0:TestItem#7:testItemMatchesCurrentTestThread:UnSpecific
+2019-10-14T13:12:50.7726782-04:00:Thread#0:TestItem#7:runsOnOneOtherThreadSpecific:False
+2019-10-14T13:12:50.7726782-04:00:Thread#0:TestItem#7:runsOnOneOtherThreadUnspecific:False
+2019-10-14T13:12:50.7726782-04:00:Thread#0:Scheduler: using testitem #7 for thread 0
+2019-10-14T13:12:50.7726782-04:00:Thread#0:Scheduler: Test #7 is scheduled for thread
+2019-10-14T13:12:50.7726782-04:00:Thread#0:Scheduler: with testItemExecutionIndex 0
+2019-10-14T13:12:50.7726782-04:00:Thread#0: Test #6/0 is finished on thread #0 as Succeeded within 0.342257 seconds
+2019-10-14T13:12:50.7736807-04:00:Thread#0: Test #7/0 is started on thread #0
+2019-10-14T13:12:50.7736807-04:00:Thread#0:B:Given I have navigated to the budget page
+2019-10-14T13:12:50.8386809-04:00:Thread#0:T:done: BudgetSteps.GivenIHaveNavigatedToTheBudgetPage() (0.1s)
+2019-10-14T13:12:50.8386809-04:00:Thread#0:B:And the salary is set to 100000
+2019-10-14T13:12:50.8626798-04:00:Thread#0:T:done: BudgetSteps.GivenTheSalaryIsSetTo("100000") (0.0s)
+2019-10-14T13:12:50.8636788-04:00:Thread#0:B:And the traditional 401k is set to 19000
+2019-10-14T13:12:50.8786793-04:00:Thread#0:T:done: BudgetSteps.GivenTheTraditionalKIsSetTo("19000") (0.0s)
+2019-10-14T13:12:50.8796817-04:00:Thread#0:B:And the tax rate is set to 30
+2019-10-14T13:12:50.8896807-04:00:Thread#0:T:done: BudgetSteps.GivenTheTaxRateIsSetTo("30") (0.0s)
+2019-10-14T13:12:50.8906818-04:00:Thread#0:B:When the budget is calculated
+2019-10-14T13:12:51.1036818-04:00:Thread#0:T:done: BudgetSteps.WhenTheBudgetIsCalculated() (0.2s)
+2019-10-14T13:12:51.1036818-04:00:Thread#0:B:Then no validation messages should be displayed
+2019-10-14T13:12:51.1096863-04:00:Thread#0:T:done: BudgetStepsThen.ThenNoValidationMessagesShouldBeDisplayed() (0.0s)
+2019-10-14T13:12:51.1096863-04:00:Thread#0:B:And salary by year should be 100000.00
+2019-10-14T13:12:51.1256819-04:00:Thread#0:T:done: BudgetStepsThen.ThenSalaryByYearShouldBe("100000.00") (0.0s)
+2019-10-14T13:12:51.1256819-04:00:Thread#0:B:And 401k by year should be 19000.00
+2019-10-14T13:12:51.1417223-04:00:Thread#0:T:done: BudgetStepsThen.ThenKByYearShouldBe("19000.00") (0.0s)
+2019-10-14T13:12:51.1417223-04:00:Thread#0:B:And taxes by year should be 24300.00
+2019-10-14T13:12:51.1496812-04:00:Thread#0:T:done: BudgetStepsThen.ThenTaxesByYearShouldBe("24300.00") (0.0s)
+2019-10-14T13:12:51.1506799-04:00:Thread#0:B:And cash by year should be 56700.00
+2019-10-14T13:12:51.1576771-04:00:Thread#0:T:done: BudgetStepsThen.ThenCashByYearShouldBe("56700.00") (0.0s)
+2019-10-14T13:12:51.1586781-04:00:Thread#0:Scheduler: get next test for thread 0
+2019-10-14T13:12:51.1586781-04:00:Thread#:Scheduler: testitem #8 from normal test queue 
+2019-10-14T13:12:51.1586781-04:00:Thread#0:Scheduler: considering testitem #8 for thread 0
+2019-10-14T13:12:51.1586781-04:00:Thread#0:TestItem#8:testItemMatchesCurrentTestThread:UnSpecific
+2019-10-14T13:12:51.1586781-04:00:Thread#0:TestItem#8:runsOnOneOtherThreadSpecific:False
+2019-10-14T13:12:51.1586781-04:00:Thread#0:TestItem#8:runsOnOneOtherThreadUnspecific:False
+2019-10-14T13:12:51.1586781-04:00:Thread#0:Scheduler: using testitem #8 for thread 0
+2019-10-14T13:12:51.1586781-04:00:Thread#0:Scheduler: Test #8 is scheduled for thread
+2019-10-14T13:12:51.1586781-04:00:Thread#0:Scheduler: with testItemExecutionIndex 0
+2019-10-14T13:12:51.1586781-04:00:Thread#0: Test #7/0 is finished on thread #0 as Succeeded within 0.3849974 seconds
+2019-10-14T13:12:51.1586781-04:00:Thread#0: Test #8/0 is started on thread #0
+2019-10-14T13:12:51.1596781-04:00:Thread#0:B:Given I have navigated to the budget page
+2019-10-14T13:12:51.2127060-04:00:Thread#0:T:done: BudgetSteps.GivenIHaveNavigatedToTheBudgetPage() (0.1s)
+2019-10-14T13:12:51.2127060-04:00:Thread#0:B:And I have entered 150000 Euros

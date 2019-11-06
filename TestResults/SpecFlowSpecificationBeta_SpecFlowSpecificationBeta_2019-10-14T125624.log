@@ -1,0 +1,123 @@
+﻿2019-10-14T12:56:24.0530926-04:00;VSTestExecutionThread;Info;SpecFlow+Runner execution started
+2019-10-14T12:56:24.0530926-04:00;VSTestExecutionThread;Info;SpecFlow+Runner 3.0.391 in Framework clr40 in x86 mode execution started
+2019-10-14T12:56:24.0530926-04:00;VSTestExecutionThread;Info;TestAdapter Location: C:\dev\CSharp\VisualStudioProjects\SpecFlowPractice\SpecFlowSpecificationBeta\bin\Debug\TechTalk.SpecRun.VisualStudio.TestAdapter.dll
+2019-10-14T12:56:24.1420742-04:00;VSTestExecutionThread;Info;SpecRun: running tests in C:\dev\CSharp\VisualStudioProjects\SpecFlowPractice\SpecFlowSpecificationBeta\bin\Debug\SpecFlowSpecificationBeta.dll
+2019-10-14T12:56:24.1420742-04:00;VSTestExecutionThread;Info;Output folder configured to "C:\dev\CSharp\VisualStudioProjects\SpecFlowPractice\TestResults" (default)
+2019-10-14T12:56:24.1420742-04:00;VSTestExecutionThread;Info;Profile: SpecFlowSpecificationBeta
+2019-10-14T12:56:24.1560754-04:00;VSTestExecutionThread;Info;Log file path: C:\dev\CSharp\VisualStudioProjects\SpecFlowPractice\TestResults\SpecFlowSpecificationBeta_SpecFlowSpecificationBeta_2019-10-14T125624.log
+2019-10-14T12:56:24.1760383-04:00;Thread#13;Info;Checking license
+2019-10-14T12:56:24.1790632-04:00;Thread#13;Info;License check completed
+2019-10-14T12:56:24.1790632-04:00;Thread#13;Info;starting test run
+2019-10-14T12:56:24.1850716-04:00;Thread#13;Info;Discovering target: Default
+2019-10-14T12:56:24.1850716-04:00;Thread#13;Info;Discovering tests from assembly: C:\dev\CSharp\VisualStudioProjects\SpecFlowPractice\SpecFlowSpecificationBeta\bin\Debug\SpecFlowSpecificationBeta.dll
+2019-10-14T12:56:24.4330720-04:00:Appdomain Disposed
+2019-10-14T12:56:24.4330720-04:00;Thread#13;Info;Discovered tests from assembly: C:\dev\CSharp\VisualStudioProjects\SpecFlowPractice\SpecFlowSpecificationBeta\bin\Debug\SpecFlowSpecificationBeta.dll
+2019-10-14T12:56:24.4340719-04:00:Test Suite Dump
+2019-10-14T12:56:24.4350738-04:00:#0: SpecFlowSpecificationBeta/SpecFlowSpecificationBeta - 
+2019-10-14T12:56:24.4350738-04:00:#1: Default - 
+2019-10-14T12:56:24.4350738-04:00:#2: SpecFlowSpecificationBeta - 
+2019-10-14T12:56:24.4350738-04:00:#3: Budget - 
+2019-10-14T12:56:24.4600777-04:00:#8: Custom conversion for from Euro to Dollar - TestAssembly:SpecFlowSpecificationBeta/Feature:Budget/Scenario:Custom+conversion+for+from+Euro+to+Dollar
+2019-10-14T12:56:24.4600777-04:00:End: Test Suite Dump
+2019-10-14T12:56:24.4760371-04:00:Thread#0:Scheduler: get next test for thread 0
+2019-10-14T12:56:24.4770374-04:00:Thread#:Scheduler: testitem #8 from normal test queue 
+2019-10-14T12:56:24.4770374-04:00:Thread#0:Scheduler: considering testitem #8 for thread 0
+2019-10-14T12:56:24.4800376-04:00:Thread#0:TestItem#8:testItemMatchesCurrentTestThread:UnSpecific
+2019-10-14T12:56:24.4800376-04:00:Thread#0:TestItem#8:runsOnOneOtherThreadSpecific:False
+2019-10-14T12:56:24.4800376-04:00:Thread#0:TestItem#8:runsOnOneOtherThreadUnspecific:False
+2019-10-14T12:56:24.4800376-04:00:Thread#0:Scheduler: using testitem #8 for thread 0
+2019-10-14T12:56:24.4810376-04:00:Thread#0:Scheduler: Test #8 is scheduled for thread
+2019-10-14T12:56:24.4810376-04:00:Thread#0:Scheduler: with testItemExecutionIndex 0
+2019-10-14T12:56:24.4830375-04:00:Thread #0: creating new test thread executor for SpecFlowSpecificationBeta, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null (target: Default)
+2019-10-14T12:56:24.4850372-04:00:Thread #0: Creating test assembly executor for execution model AppDomain
+2019-10-14T12:56:24.4850372-04:00:Thread #0: Creating test assembly executor for execution model AppDomain
+2019-10-14T12:56:24.4860375-04:00:Thread #0: using TechTalk.SpecRun.Framework.Execution.InProcess.InProcAppDomainTestAssemblyExecutorHost to execute tests
+2019-10-14T12:56:24.5290375-04:00:Thread#0: Test #8/0 is started on thread #0
+2019-10-14T12:56:24.6310383-04:00:Thread#0:T:-> Loading plugin C:\dev\CSharp\VisualStudioProjects\SpecFlowPractice\SpecFlowSpecificationBeta\bin\Debug\SpecRun.Runtime.SpecFlowPlugin.dll
+2019-10-14T12:56:24.6350364-04:00:Thread#0:T:-> Using default config
+2019-10-14T12:56:29.1114301-04:00:Thread#0:B:Given I have navigated to the budget page
+2019-10-14T12:56:29.3144332-04:00:Thread#0:T:done: BudgetSteps.GivenIHaveNavigatedToTheBudgetPage() (0.2s)
+2019-10-14T12:56:29.3154315-04:00:Thread#0:B:And I have entered 150000 Euros
+2019-10-14T12:56:29.3584317-04:00:Thread#0:T:done: BudgetSteps.GivenIHaveEnteredEuros("150000") (0.0s)
+2019-10-14T12:56:29.3584317-04:00:Thread#0:B:And the traditional 401k is not populated
+2019-10-14T12:56:29.3744319-04:00:Thread#0:T:done: BudgetSteps.GivenTheTraditional401kIsNotPopulated() (0.0s)
+2019-10-14T12:56:29.3754303-04:00:Thread#0:B:And the tax rate is set to 30
+2019-10-14T12:56:29.3884312-04:00:Thread#0:T:done: BudgetSteps.GivenTheTaxRateIsSetTo("30") (0.0s)
+2019-10-14T12:56:29.3894316-04:00:Thread#0:B:When the budget is calculated
+2019-10-14T12:56:29.6064296-04:00:Thread#0:T:done: BudgetSteps.WhenTheBudgetIsCalculated() (0.2s)
+2019-10-14T12:56:29.6074304-04:00:Thread#0:B:Then cash by year should be 165000.00
+2019-10-14T12:56:29.6474653-04:00:Thread#0:T:error: Assert.IsTrue failed. 
+2019-10-14T12:56:29.6734636-04:00:Thread#0:TestItem#8:Scheduler: reschedule tests for testitem #8
+2019-10-14T12:56:29.6744730-04:00:Thread#0:Scheduler: get next test for thread 0
+2019-10-14T12:56:29.6744730-04:00:Thread#:Scheduler: dequeuing a rescheduled testitem: #8
+2019-10-14T12:56:29.6744730-04:00:Thread#0:Scheduler: considering testitem #8 for thread 0
+2019-10-14T12:56:29.6744730-04:00:Thread#0:TestItem#8:testItemMatchesCurrentTestThread:UnSpecific
+2019-10-14T12:56:29.6744730-04:00:Thread#0:TestItem#8:runsOnOneOtherThreadSpecific:False
+2019-10-14T12:56:29.6744730-04:00:Thread#0:TestItem#8:runsOnOneOtherThreadUnspecific:False
+2019-10-14T12:56:29.6744730-04:00:Thread#0:Scheduler: using testitem #8 for thread 0
+2019-10-14T12:56:29.6744730-04:00:Thread#0:Scheduler: Test #8 is scheduled for thread
+2019-10-14T12:56:29.6744730-04:00:Thread#0:Scheduler: with testItemExecutionIndex 1
+2019-10-14T12:56:29.6834692-04:00:Thread#0: Test #8/0 is finished on thread #0 as Failed within 5.1544317 seconds
+2019-10-14T12:56:29.6844650-04:00:Thread#0: Test #8/1 is started on thread #0
+2019-10-14T12:56:29.6844650-04:00:Thread#0:B:Given I have navigated to the budget page
+2019-10-14T12:56:29.7714350-04:00:Thread#0:T:done: BudgetSteps.GivenIHaveNavigatedToTheBudgetPage() (0.1s)
+2019-10-14T12:56:29.7714350-04:00:Thread#0:B:And I have entered 150000 Euros
+2019-10-14T12:56:29.8004366-04:00:Thread#0:T:done: BudgetSteps.GivenIHaveEnteredEuros("150000") (0.0s)
+2019-10-14T12:56:29.8004366-04:00:Thread#0:B:And the traditional 401k is not populated
+2019-10-14T12:56:29.8104311-04:00:Thread#0:T:done: BudgetSteps.GivenTheTraditional401kIsNotPopulated() (0.0s)
+2019-10-14T12:56:29.8104311-04:00:Thread#0:B:And the tax rate is set to 30
+2019-10-14T12:56:29.8224331-04:00:Thread#0:T:done: BudgetSteps.GivenTheTaxRateIsSetTo("30") (0.0s)
+2019-10-14T12:56:29.8224331-04:00:Thread#0:B:When the budget is calculated
+2019-10-14T12:56:30.0434301-04:00:Thread#0:T:done: BudgetSteps.WhenTheBudgetIsCalculated() (0.2s)
+2019-10-14T12:56:30.0434301-04:00:Thread#0:B:Then cash by year should be 165000.00
+2019-10-14T12:56:30.0504572-04:00:Thread#0:T:error: Assert.IsTrue failed. 
+2019-10-14T12:56:30.0514331-04:00:Thread#0:Scheduler: get next test for thread 0
+2019-10-14T12:56:30.0514331-04:00:Thread#:Scheduler: dequeuing a rescheduled testitem: #8
+2019-10-14T12:56:30.0514331-04:00:Thread#0:Scheduler: considering testitem #8 for thread 0
+2019-10-14T12:56:30.0514331-04:00:Thread#0:TestItem#8:testItemMatchesCurrentTestThread:UnSpecific
+2019-10-14T12:56:30.0514331-04:00:Thread#0:TestItem#8:runsOnOneOtherThreadSpecific:False
+2019-10-14T12:56:30.0514331-04:00:Thread#0:TestItem#8:runsOnOneOtherThreadUnspecific:False
+2019-10-14T12:56:30.0514331-04:00:Thread#0:Scheduler: using testitem #8 for thread 0
+2019-10-14T12:56:30.0514331-04:00:Thread#0:Scheduler: Test #8 is scheduled for thread
+2019-10-14T12:56:30.0514331-04:00:Thread#0:Scheduler: with testItemExecutionIndex 2
+2019-10-14T12:56:30.0514331-04:00:Thread#0: Test #8/1 is finished on thread #0 as Failed within 0.3669681 seconds
+2019-10-14T12:56:30.0514331-04:00:Thread#0: Test #8/2 is started on thread #0
+2019-10-14T12:56:30.0524312-04:00:Thread#0:B:Given I have navigated to the budget page
+2019-10-14T12:56:30.1204323-04:00:Thread#0:T:done: BudgetSteps.GivenIHaveNavigatedToTheBudgetPage() (0.1s)
+2019-10-14T12:56:30.1204323-04:00:Thread#0:B:And I have entered 150000 Euros
+2019-10-14T12:56:30.1434322-04:00:Thread#0:T:done: BudgetSteps.GivenIHaveEnteredEuros("150000") (0.0s)
+2019-10-14T12:56:30.1434322-04:00:Thread#0:B:And the traditional 401k is not populated
+2019-10-14T12:56:30.1544314-04:00:Thread#0:T:done: BudgetSteps.GivenTheTraditional401kIsNotPopulated() (0.0s)
+2019-10-14T12:56:30.1554309-04:00:Thread#0:B:And the tax rate is set to 30
+2019-10-14T12:56:30.1644313-04:00:Thread#0:T:done: BudgetSteps.GivenTheTaxRateIsSetTo("30") (0.0s)
+2019-10-14T12:56:30.1654311-04:00:Thread#0:B:When the budget is calculated
+2019-10-14T12:56:30.3794381-04:00:Thread#0:T:done: BudgetSteps.WhenTheBudgetIsCalculated() (0.2s)
+2019-10-14T12:56:30.3794381-04:00:Thread#0:B:Then cash by year should be 165000.00
+2019-10-14T12:56:30.3944790-04:00:Thread#0:T:error: Assert.IsTrue failed. 
+2019-10-14T12:56:30.3954766-04:00:Thread#0:Scheduler: get next test for thread 0
+2019-10-14T12:56:30.3954766-04:00:Thread#:Scheduler: at the end of normal test queue
+2019-10-14T12:56:30.3954766-04:00:Thread#0:Scheduler: enumerator for thread is at end
+2019-10-14T12:56:30.3954766-04:00:Thread#0:Scheduler: No more tests for thread
+2019-10-14T12:56:31.1554643-04:00:Thread#0: Test #8/2 is finished on thread #0 as Failed within 1.1040312 seconds
+2019-10-14T12:56:31.1674316-04:00:Appdomain Disposed
+2019-10-14T12:56:31.1694671-04:00:Trying to cancel thread
+2019-10-14T12:56:31.1694671-04:00:Thread cancelled
+2019-10-14T12:56:31.1734646-04:00:Thread#-1:Scheduler: get next test for thread -1
+2019-10-14T12:56:31.1734646-04:00:Thread#:Scheduler: at the end of normal test queue
+2019-10-14T12:56:31.1734646-04:00:Thread#-1:Scheduler: enumerator for thread is at end
+2019-10-14T12:56:31.1774313-04:00;Thread#13;Info;test run finished
+2019-10-14T12:56:31.1774313-04:00;Thread#13;Info;publishing test results
+2019-10-14T12:56:31.1974299-04:00;Thread#13;Info;test results published
+2019-10-14T12:56:31.1984298-04:00;Thread#13;Info;generating reports
+2019-10-14T12:56:31.2744294-04:00;Thread#13;Info;Starting external report generation process
+2019-10-14T12:56:32.3814290-04:00;Thread#13;Info;Successfully generated reports.
+2019-10-14T12:56:32.3824317-04:00;Thread#13;Info;Successfully generated reports
+2019-10-14T12:56:32.3874640-04:00:Total: 1 (test executions: 3)
+2019-10-14T12:56:32.3884663-04:00:Succeeded: 0
+2019-10-14T12:56:32.3884663-04:00:Ignored: 0
+2019-10-14T12:56:32.3894640-04:00:Pending: 0
+2019-10-14T12:56:32.3894640-04:00:Skipped: 0
+2019-10-14T12:56:32.3894640-04:00:Failed: 1
+2019-10-14T12:56:32.3964652-04:00;VSTestExecutionThread;Info;Adding attachments to VSTest
+2019-10-14T12:56:32.3964652-04:00;VSTestExecutionThread;Info;adding Test Execution Report 'C:\dev\CSharp\VisualStudioProjects\SpecFlowPractice\TestResults\SpecFlowSpecificationBeta_SpecFlowSpecificationBeta_2019-10-14T125624.html'
+========== End of log file ==========

@@ -1,0 +1,40 @@
+﻿2019-10-14T13:09:59.5031709-04:00;VSTestExecutionThread;Info;SpecFlow+Runner execution started
+2019-10-14T13:09:59.5031709-04:00;VSTestExecutionThread;Info;SpecFlow+Runner 3.0.391 in Framework clr40 in x86 mode execution started
+2019-10-14T13:09:59.5031709-04:00;VSTestExecutionThread;Info;TestAdapter Location: C:\dev\CSharp\VisualStudioProjects\SpecFlowPractice\SpecFlowSpecificationBeta\bin\Debug\TechTalk.SpecRun.VisualStudio.TestAdapter.dll
+2019-10-14T13:09:59.5921494-04:00;VSTestExecutionThread;Info;SpecRun: running tests in C:\dev\CSharp\VisualStudioProjects\SpecFlowPractice\SpecFlowSpecificationBeta\bin\Debug\SpecFlowSpecificationBeta.dll
+2019-10-14T13:09:59.5931606-04:00;VSTestExecutionThread;Info;Output folder configured to "C:\dev\CSharp\VisualStudioProjects\SpecFlowPractice\TestResults" (default)
+2019-10-14T13:09:59.5931606-04:00;VSTestExecutionThread;Info;Profile: SpecFlowSpecificationBeta
+2019-10-14T13:09:59.6061123-04:00;VSTestExecutionThread;Info;Log file path: C:\dev\CSharp\VisualStudioProjects\SpecFlowPractice\TestResults\SpecFlowSpecificationBeta_SpecFlowSpecificationBeta_2019-10-14T130959.log
+2019-10-14T13:09:59.6271478-04:00;Thread#13;Info;Checking license
+2019-10-14T13:09:59.6301492-04:00;Thread#13;Info;License check completed
+2019-10-14T13:09:59.6301492-04:00;Thread#13;Info;starting test run
+2019-10-14T13:09:59.6361471-04:00;Thread#13;Info;Discovering target: Default
+2019-10-14T13:09:59.6361471-04:00;Thread#13;Info;Discovering tests from assembly: C:\dev\CSharp\VisualStudioProjects\SpecFlowPractice\SpecFlowSpecificationBeta\bin\Debug\SpecFlowSpecificationBeta.dll
+2019-10-14T13:09:59.8831128-04:00:Appdomain Disposed
+2019-10-14T13:09:59.8831128-04:00;Thread#13;Info;Discovered tests from assembly: C:\dev\CSharp\VisualStudioProjects\SpecFlowPractice\SpecFlowSpecificationBeta\bin\Debug\SpecFlowSpecificationBeta.dll
+2019-10-14T13:09:59.8831128-04:00:Test Suite Dump
+2019-10-14T13:09:59.8851480-04:00:#0: SpecFlowSpecificationBeta/SpecFlowSpecificationBeta - 
+2019-10-14T13:09:59.8851480-04:00:#1: Default - 
+2019-10-14T13:09:59.8851480-04:00:#2: SpecFlowSpecificationBeta - 
+2019-10-14T13:09:59.8851480-04:00:#3: Budget - 
+2019-10-14T13:09:59.9091488-04:00:#8: Custom conversion for from Euro to Dollar - TestAssembly:SpecFlowSpecificationBeta/Feature:Budget/Scenario:Custom+conversion+for+from+Euro+to+Dollar
+2019-10-14T13:09:59.9091488-04:00:End: Test Suite Dump
+2019-10-14T13:09:59.9251163-04:00:Thread#0:Scheduler: get next test for thread 0
+2019-10-14T13:09:59.9261166-04:00:Thread#:Scheduler: testitem #8 from normal test queue 
+2019-10-14T13:09:59.9261166-04:00:Thread#0:Scheduler: considering testitem #8 for thread 0
+2019-10-14T13:09:59.9291162-04:00:Thread#0:TestItem#8:testItemMatchesCurrentTestThread:UnSpecific
+2019-10-14T13:09:59.9291162-04:00:Thread#0:TestItem#8:runsOnOneOtherThreadSpecific:False
+2019-10-14T13:09:59.9291162-04:00:Thread#0:TestItem#8:runsOnOneOtherThreadUnspecific:False
+2019-10-14T13:09:59.9291162-04:00:Thread#0:Scheduler: using testitem #8 for thread 0
+2019-10-14T13:09:59.9301162-04:00:Thread#0:Scheduler: Test #8 is scheduled for thread
+2019-10-14T13:09:59.9311164-04:00:Thread#0:Scheduler: with testItemExecutionIndex 0
+2019-10-14T13:09:59.9331175-04:00:Thread #0: creating new test thread executor for SpecFlowSpecificationBeta, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null (target: Default)
+2019-10-14T13:09:59.9341176-04:00:Thread #0: Creating test assembly executor for execution model AppDomain
+2019-10-14T13:09:59.9351165-04:00:Thread #0: Creating test assembly executor for execution model AppDomain
+2019-10-14T13:09:59.9351165-04:00:Thread #0: using TechTalk.SpecRun.Framework.Execution.InProcess.InProcAppDomainTestAssemblyExecutorHost to execute tests
+2019-10-14T13:09:59.9781166-04:00:Thread#0: Test #8/0 is started on thread #0
+2019-10-14T13:10:00.0871496-04:00:Thread#0:T:-> Loading plugin C:\dev\CSharp\VisualStudioProjects\SpecFlowPractice\SpecFlowSpecificationBeta\bin\Debug\SpecRun.Runtime.SpecFlowPlugin.dll
+2019-10-14T13:10:00.0911168-04:00:Thread#0:T:-> Using default config
+2019-10-14T13:10:04.6071716-04:00:Thread#0:B:Given I have navigated to the budget page
+2019-10-14T13:10:04.8531450-04:00:Thread#0:T:done: BudgetSteps.GivenIHaveNavigatedToTheBudgetPage() (0.2s)
+2019-10-14T13:10:04.8551469-04:00:Thread#0:B:And I have entered 150000 Euros
