@@ -1,2 +1,2 @@
-# SpecFlow Practice
+# SpecFlowPractice
 ###### SpecFlow is the best BDD framework.
